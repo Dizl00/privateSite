@@ -1,0 +1,115 @@
+// @font-face {
+//     font-family: 'Onest';
+//     src: url(../fonts/onest/OnestRegular1602-hint.ttf) format('truetype');
+// }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// body p {}
+
+// .wrapper {
+//     max-width: 1920px;
+//     margin: 0 auto;
+//     min-height: 100vh;
+//     position: relative;
+//     overflow: hidden;
+//     min-width: 1200px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+// }
+
+// .flex {
+//     &SA {
+//         display: flex;
+//         justify-content: space-around;
+//     }
+//     &SB {
+//         display: flex;
+//         justify-content: space-between;
+//     }
+//     &Center {
+//         display: flex;
+//         justify-content: center;
+//     }
+//     &AI {
+//         display: flex;
+//         align-items: center;
+//     }
+//     &W {
+//         display: flex;
+//         flex-wrap: wrap;
+//     }
+//     &Column {
+//         display: flex;
+//         flex-direction: column;
+//     }
+//     &Start {
+//         display: flex;
+//         justify-content: flex-start;
+//     }
+//     &End {
+//         display: flex;
+//         justify-content: flex-end;
+//     }
+// }
+
+// a,
+// a:hover {
+//     text-decoration: none;
+// }
+
+/* top block */
+.bg-img{
+    // position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background: url(../images/background.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+// .topBackground {
+//     position: absolute;
+//     width: 100vw;
+//     height: 100vh;
+//     object-fit: cover;
+// }
+
+
+/* top block end*/
+
+
+/* --- Media styles --- */
+
+@media screen and (min-width:1300px) {
+    .wrapper .container {
+        width: 1270px;
+    }
+}
+
+@media screen and (min-width:1200px) {}
+
+@media screen and (max-width:1199px) {}
+
+@media screen and (max-width:991px) {}
+
+@media screen and (max-width:767px) {}
+
+@media screen and (max-width:675px) {}
+
+@media screen and (max-width:640px) {}
+
+@media screen and (max-width:600px) {}
+
+@media screen and (max-width:485px) {}
+
+@media screen and (max-width:425px) {}
+
+@media screen and (max-width:400px) {}
+
+@media screen and (max-width:370px) {}
